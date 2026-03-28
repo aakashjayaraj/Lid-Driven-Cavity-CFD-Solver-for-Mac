@@ -1,4 +1,4 @@
-# CFD_GUI – 2D Lid-Driven Cavity CFD with Qt GUI (macOS)
+# CFD Software – 2D Lid-Driven Cavity CFD with Qt GUI (macOS)
 
 This project is a simple 2D incompressible Navier–Stokes solver for the lid‑driven cavity problem, wrapped in a Qt‑based GUI that runs natively on macOS. It lets you choose mesh size, Reynolds number, time step, and number of steps, run the simulation interactively, and visualise either pressure or velocity magnitude, with a progress bar and a quit‑confirmation dialog.
 
