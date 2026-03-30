@@ -1,3 +1,0 @@
-/Volumes/Vu1tUrR-SSD/CFD/Project_1/CFD_GUI/build/CMakeFiles/CFD_GUI.dir
-/Volumes/Vu1tUrR-SSD/CFD/Project_1/CFD_GUI/build/CMakeFiles/edit_cache.dir
-/Volumes/Vu1tUrR-SSD/CFD/Project_1/CFD_GUI/build/CMakeFiles/rebuild_cache.dir
