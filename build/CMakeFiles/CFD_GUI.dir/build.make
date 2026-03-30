@@ -85,10 +85,30 @@ src/moc_Solver.cpp: /Volumes/Vu1tUrR-SSD/CFD/Project_1/CFD_GUI/src/Solver.h
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Volumes/Vu1tUrR-SSD/CFD/Project_1/CFD_GUI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating src/moc_Solver.cpp"
 	cd /Volumes/Vu1tUrR-SSD/CFD/Project_1/CFD_GUI/build/src && /opt/homebrew/opt/qt/share/qt/libexec/moc @/Volumes/Vu1tUrR-SSD/CFD/Project_1/CFD_GUI/build/src/moc_Solver.cpp_parameters
 
+src/moc_ComputeConfig.cpp: /Volumes/Vu1tUrR-SSD/CFD/Project_1/CFD_GUI/src/ComputeConfig.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Volumes/Vu1tUrR-SSD/CFD/Project_1/CFD_GUI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating src/moc_ComputeConfig.cpp"
+	cd /Volumes/Vu1tUrR-SSD/CFD/Project_1/CFD_GUI/build/src && /opt/homebrew/opt/qt/share/qt/libexec/moc @/Volumes/Vu1tUrR-SSD/CFD/Project_1/CFD_GUI/build/src/moc_ComputeConfig.cpp_parameters
+
+src/moc_ISolverBackend.cpp: /Volumes/Vu1tUrR-SSD/CFD/Project_1/CFD_GUI/src/ISolverBackend.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Volumes/Vu1tUrR-SSD/CFD/Project_1/CFD_GUI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating src/moc_ISolverBackend.cpp"
+	cd /Volumes/Vu1tUrR-SSD/CFD/Project_1/CFD_GUI/build/src && /opt/homebrew/opt/qt/share/qt/libexec/moc @/Volumes/Vu1tUrR-SSD/CFD/Project_1/CFD_GUI/build/src/moc_ISolverBackend.cpp_parameters
+
+src/moc_CpuSolverBackend.cpp: /Volumes/Vu1tUrR-SSD/CFD/Project_1/CFD_GUI/src/CpuSolverBackend.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Volumes/Vu1tUrR-SSD/CFD/Project_1/CFD_GUI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating src/moc_CpuSolverBackend.cpp"
+	cd /Volumes/Vu1tUrR-SSD/CFD/Project_1/CFD_GUI/build/src && /opt/homebrew/opt/qt/share/qt/libexec/moc @/Volumes/Vu1tUrR-SSD/CFD/Project_1/CFD_GUI/build/src/moc_CpuSolverBackend.cpp_parameters
+
+src/moc_GpuMetalSolverBackend.cpp: /Volumes/Vu1tUrR-SSD/CFD/Project_1/CFD_GUI/src/GpuMetalSolverBackend.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Volumes/Vu1tUrR-SSD/CFD/Project_1/CFD_GUI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating src/moc_GpuMetalSolverBackend.cpp"
+	cd /Volumes/Vu1tUrR-SSD/CFD/Project_1/CFD_GUI/build/src && /opt/homebrew/opt/qt/share/qt/libexec/moc @/Volumes/Vu1tUrR-SSD/CFD/Project_1/CFD_GUI/build/src/moc_GpuMetalSolverBackend.cpp_parameters
+
+src/moc_GpuMetalRunner.cpp: /Volumes/Vu1tUrR-SSD/CFD/Project_1/CFD_GUI/src/GpuMetalRunner.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Volumes/Vu1tUrR-SSD/CFD/Project_1/CFD_GUI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating src/moc_GpuMetalRunner.cpp"
+	cd /Volumes/Vu1tUrR-SSD/CFD/Project_1/CFD_GUI/build/src && /opt/homebrew/opt/qt/share/qt/libexec/moc @/Volumes/Vu1tUrR-SSD/CFD/Project_1/CFD_GUI/build/src/moc_GpuMetalRunner.cpp_parameters
+
 CMakeFiles/CFD_GUI.dir/src/main.cpp.o: CMakeFiles/CFD_GUI.dir/flags.make
 CMakeFiles/CFD_GUI.dir/src/main.cpp.o: /Volumes/Vu1tUrR-SSD/CFD/Project_1/CFD_GUI/src/main.cpp
 CMakeFiles/CFD_GUI.dir/src/main.cpp.o: CMakeFiles/CFD_GUI.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Volumes/Vu1tUrR-SSD/CFD/Project_1/CFD_GUI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/CFD_GUI.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Volumes/Vu1tUrR-SSD/CFD/Project_1/CFD_GUI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/CFD_GUI.dir/src/main.cpp.o"
 	/Volumes/Vu1tUrR-SSD/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CFD_GUI.dir/src/main.cpp.o -MF CMakeFiles/CFD_GUI.dir/src/main.cpp.o.d -o CMakeFiles/CFD_GUI.dir/src/main.cpp.o -c /Volumes/Vu1tUrR-SSD/CFD/Project_1/CFD_GUI/src/main.cpp
 
 CMakeFiles/CFD_GUI.dir/src/main.cpp.i: cmake_force
@@ -102,7 +122,7 @@ CMakeFiles/CFD_GUI.dir/src/main.cpp.s: cmake_force
 CMakeFiles/CFD_GUI.dir/src/MainWindow.cpp.o: CMakeFiles/CFD_GUI.dir/flags.make
 CMakeFiles/CFD_GUI.dir/src/MainWindow.cpp.o: /Volumes/Vu1tUrR-SSD/CFD/Project_1/CFD_GUI/src/MainWindow.cpp
 CMakeFiles/CFD_GUI.dir/src/MainWindow.cpp.o: CMakeFiles/CFD_GUI.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Volumes/Vu1tUrR-SSD/CFD/Project_1/CFD_GUI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/CFD_GUI.dir/src/MainWindow.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Volumes/Vu1tUrR-SSD/CFD/Project_1/CFD_GUI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/CFD_GUI.dir/src/MainWindow.cpp.o"
 	/Volumes/Vu1tUrR-SSD/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CFD_GUI.dir/src/MainWindow.cpp.o -MF CMakeFiles/CFD_GUI.dir/src/MainWindow.cpp.o.d -o CMakeFiles/CFD_GUI.dir/src/MainWindow.cpp.o -c /Volumes/Vu1tUrR-SSD/CFD/Project_1/CFD_GUI/src/MainWindow.cpp
 
 CMakeFiles/CFD_GUI.dir/src/MainWindow.cpp.i: cmake_force
@@ -116,7 +136,7 @@ CMakeFiles/CFD_GUI.dir/src/MainWindow.cpp.s: cmake_force
 CMakeFiles/CFD_GUI.dir/src/Grid.cpp.o: CMakeFiles/CFD_GUI.dir/flags.make
 CMakeFiles/CFD_GUI.dir/src/Grid.cpp.o: /Volumes/Vu1tUrR-SSD/CFD/Project_1/CFD_GUI/src/Grid.cpp
 CMakeFiles/CFD_GUI.dir/src/Grid.cpp.o: CMakeFiles/CFD_GUI.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Volumes/Vu1tUrR-SSD/CFD/Project_1/CFD_GUI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/CFD_GUI.dir/src/Grid.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Volumes/Vu1tUrR-SSD/CFD/Project_1/CFD_GUI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/CFD_GUI.dir/src/Grid.cpp.o"
 	/Volumes/Vu1tUrR-SSD/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CFD_GUI.dir/src/Grid.cpp.o -MF CMakeFiles/CFD_GUI.dir/src/Grid.cpp.o.d -o CMakeFiles/CFD_GUI.dir/src/Grid.cpp.o -c /Volumes/Vu1tUrR-SSD/CFD/Project_1/CFD_GUI/src/Grid.cpp
 
 CMakeFiles/CFD_GUI.dir/src/Grid.cpp.i: cmake_force
@@ -130,7 +150,7 @@ CMakeFiles/CFD_GUI.dir/src/Grid.cpp.s: cmake_force
 CMakeFiles/CFD_GUI.dir/src/Field.cpp.o: CMakeFiles/CFD_GUI.dir/flags.make
 CMakeFiles/CFD_GUI.dir/src/Field.cpp.o: /Volumes/Vu1tUrR-SSD/CFD/Project_1/CFD_GUI/src/Field.cpp
 CMakeFiles/CFD_GUI.dir/src/Field.cpp.o: CMakeFiles/CFD_GUI.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Volumes/Vu1tUrR-SSD/CFD/Project_1/CFD_GUI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/CFD_GUI.dir/src/Field.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Volumes/Vu1tUrR-SSD/CFD/Project_1/CFD_GUI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/CFD_GUI.dir/src/Field.cpp.o"
 	/Volumes/Vu1tUrR-SSD/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CFD_GUI.dir/src/Field.cpp.o -MF CMakeFiles/CFD_GUI.dir/src/Field.cpp.o.d -o CMakeFiles/CFD_GUI.dir/src/Field.cpp.o -c /Volumes/Vu1tUrR-SSD/CFD/Project_1/CFD_GUI/src/Field.cpp
 
 CMakeFiles/CFD_GUI.dir/src/Field.cpp.i: cmake_force
@@ -144,7 +164,7 @@ CMakeFiles/CFD_GUI.dir/src/Field.cpp.s: cmake_force
 CMakeFiles/CFD_GUI.dir/src/Solver.cpp.o: CMakeFiles/CFD_GUI.dir/flags.make
 CMakeFiles/CFD_GUI.dir/src/Solver.cpp.o: /Volumes/Vu1tUrR-SSD/CFD/Project_1/CFD_GUI/src/Solver.cpp
 CMakeFiles/CFD_GUI.dir/src/Solver.cpp.o: CMakeFiles/CFD_GUI.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Volumes/Vu1tUrR-SSD/CFD/Project_1/CFD_GUI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/CFD_GUI.dir/src/Solver.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Volumes/Vu1tUrR-SSD/CFD/Project_1/CFD_GUI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/CFD_GUI.dir/src/Solver.cpp.o"
 	/Volumes/Vu1tUrR-SSD/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CFD_GUI.dir/src/Solver.cpp.o -MF CMakeFiles/CFD_GUI.dir/src/Solver.cpp.o.d -o CMakeFiles/CFD_GUI.dir/src/Solver.cpp.o -c /Volumes/Vu1tUrR-SSD/CFD/Project_1/CFD_GUI/src/Solver.cpp
 
 CMakeFiles/CFD_GUI.dir/src/Solver.cpp.i: cmake_force
@@ -155,10 +175,52 @@ CMakeFiles/CFD_GUI.dir/src/Solver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CFD_GUI.dir/src/Solver.cpp.s"
 	/Volumes/Vu1tUrR-SSD/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/Vu1tUrR-SSD/CFD/Project_1/CFD_GUI/src/Solver.cpp -o CMakeFiles/CFD_GUI.dir/src/Solver.cpp.s
 
+CMakeFiles/CFD_GUI.dir/src/CpuSolverBackend.cpp.o: CMakeFiles/CFD_GUI.dir/flags.make
+CMakeFiles/CFD_GUI.dir/src/CpuSolverBackend.cpp.o: /Volumes/Vu1tUrR-SSD/CFD/Project_1/CFD_GUI/src/CpuSolverBackend.cpp
+CMakeFiles/CFD_GUI.dir/src/CpuSolverBackend.cpp.o: CMakeFiles/CFD_GUI.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Volumes/Vu1tUrR-SSD/CFD/Project_1/CFD_GUI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/CFD_GUI.dir/src/CpuSolverBackend.cpp.o"
+	/Volumes/Vu1tUrR-SSD/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CFD_GUI.dir/src/CpuSolverBackend.cpp.o -MF CMakeFiles/CFD_GUI.dir/src/CpuSolverBackend.cpp.o.d -o CMakeFiles/CFD_GUI.dir/src/CpuSolverBackend.cpp.o -c /Volumes/Vu1tUrR-SSD/CFD/Project_1/CFD_GUI/src/CpuSolverBackend.cpp
+
+CMakeFiles/CFD_GUI.dir/src/CpuSolverBackend.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CFD_GUI.dir/src/CpuSolverBackend.cpp.i"
+	/Volumes/Vu1tUrR-SSD/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/Vu1tUrR-SSD/CFD/Project_1/CFD_GUI/src/CpuSolverBackend.cpp > CMakeFiles/CFD_GUI.dir/src/CpuSolverBackend.cpp.i
+
+CMakeFiles/CFD_GUI.dir/src/CpuSolverBackend.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CFD_GUI.dir/src/CpuSolverBackend.cpp.s"
+	/Volumes/Vu1tUrR-SSD/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/Vu1tUrR-SSD/CFD/Project_1/CFD_GUI/src/CpuSolverBackend.cpp -o CMakeFiles/CFD_GUI.dir/src/CpuSolverBackend.cpp.s
+
+CMakeFiles/CFD_GUI.dir/src/GpuMetalSolverBackend.cpp.o: CMakeFiles/CFD_GUI.dir/flags.make
+CMakeFiles/CFD_GUI.dir/src/GpuMetalSolverBackend.cpp.o: /Volumes/Vu1tUrR-SSD/CFD/Project_1/CFD_GUI/src/GpuMetalSolverBackend.cpp
+CMakeFiles/CFD_GUI.dir/src/GpuMetalSolverBackend.cpp.o: CMakeFiles/CFD_GUI.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Volumes/Vu1tUrR-SSD/CFD/Project_1/CFD_GUI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/CFD_GUI.dir/src/GpuMetalSolverBackend.cpp.o"
+	/Volumes/Vu1tUrR-SSD/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CFD_GUI.dir/src/GpuMetalSolverBackend.cpp.o -MF CMakeFiles/CFD_GUI.dir/src/GpuMetalSolverBackend.cpp.o.d -o CMakeFiles/CFD_GUI.dir/src/GpuMetalSolverBackend.cpp.o -c /Volumes/Vu1tUrR-SSD/CFD/Project_1/CFD_GUI/src/GpuMetalSolverBackend.cpp
+
+CMakeFiles/CFD_GUI.dir/src/GpuMetalSolverBackend.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CFD_GUI.dir/src/GpuMetalSolverBackend.cpp.i"
+	/Volumes/Vu1tUrR-SSD/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/Vu1tUrR-SSD/CFD/Project_1/CFD_GUI/src/GpuMetalSolverBackend.cpp > CMakeFiles/CFD_GUI.dir/src/GpuMetalSolverBackend.cpp.i
+
+CMakeFiles/CFD_GUI.dir/src/GpuMetalSolverBackend.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CFD_GUI.dir/src/GpuMetalSolverBackend.cpp.s"
+	/Volumes/Vu1tUrR-SSD/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/Vu1tUrR-SSD/CFD/Project_1/CFD_GUI/src/GpuMetalSolverBackend.cpp -o CMakeFiles/CFD_GUI.dir/src/GpuMetalSolverBackend.cpp.s
+
+CMakeFiles/CFD_GUI.dir/src/GpuMetalRunner.mm.o: CMakeFiles/CFD_GUI.dir/flags.make
+CMakeFiles/CFD_GUI.dir/src/GpuMetalRunner.mm.o: /Volumes/Vu1tUrR-SSD/CFD/Project_1/CFD_GUI/src/GpuMetalRunner.mm
+CMakeFiles/CFD_GUI.dir/src/GpuMetalRunner.mm.o: CMakeFiles/CFD_GUI.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Volumes/Vu1tUrR-SSD/CFD/Project_1/CFD_GUI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building OBJCXX object CMakeFiles/CFD_GUI.dir/src/GpuMetalRunner.mm.o"
+	/Volumes/Vu1tUrR-SSD/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ $(OBJCXX_DEFINES) $(OBJCXX_INCLUDES) -x objective-c++ $(OBJCXX_FLAGS) -MD -MT CMakeFiles/CFD_GUI.dir/src/GpuMetalRunner.mm.o -MF CMakeFiles/CFD_GUI.dir/src/GpuMetalRunner.mm.o.d -o CMakeFiles/CFD_GUI.dir/src/GpuMetalRunner.mm.o -c /Volumes/Vu1tUrR-SSD/CFD/Project_1/CFD_GUI/src/GpuMetalRunner.mm
+
+CMakeFiles/CFD_GUI.dir/src/GpuMetalRunner.mm.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing OBJCXX source to CMakeFiles/CFD_GUI.dir/src/GpuMetalRunner.mm.i"
+	/Volumes/Vu1tUrR-SSD/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ $(OBJCXX_DEFINES) $(OBJCXX_INCLUDES) $(OBJCXX_FLAGS) -E /Volumes/Vu1tUrR-SSD/CFD/Project_1/CFD_GUI/src/GpuMetalRunner.mm > CMakeFiles/CFD_GUI.dir/src/GpuMetalRunner.mm.i
+
+CMakeFiles/CFD_GUI.dir/src/GpuMetalRunner.mm.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling OBJCXX source to assembly CMakeFiles/CFD_GUI.dir/src/GpuMetalRunner.mm.s"
+	/Volumes/Vu1tUrR-SSD/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ $(OBJCXX_DEFINES) $(OBJCXX_INCLUDES) $(OBJCXX_FLAGS) -S /Volumes/Vu1tUrR-SSD/CFD/Project_1/CFD_GUI/src/GpuMetalRunner.mm -o CMakeFiles/CFD_GUI.dir/src/GpuMetalRunner.mm.s
+
 CMakeFiles/CFD_GUI.dir/src/moc_MainWindow.cpp.o: CMakeFiles/CFD_GUI.dir/flags.make
 CMakeFiles/CFD_GUI.dir/src/moc_MainWindow.cpp.o: src/moc_MainWindow.cpp
 CMakeFiles/CFD_GUI.dir/src/moc_MainWindow.cpp.o: CMakeFiles/CFD_GUI.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Volumes/Vu1tUrR-SSD/CFD/Project_1/CFD_GUI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/CFD_GUI.dir/src/moc_MainWindow.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Volumes/Vu1tUrR-SSD/CFD/Project_1/CFD_GUI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/CFD_GUI.dir/src/moc_MainWindow.cpp.o"
 	/Volumes/Vu1tUrR-SSD/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CFD_GUI.dir/src/moc_MainWindow.cpp.o -MF CMakeFiles/CFD_GUI.dir/src/moc_MainWindow.cpp.o.d -o CMakeFiles/CFD_GUI.dir/src/moc_MainWindow.cpp.o -c /Volumes/Vu1tUrR-SSD/CFD/Project_1/CFD_GUI/build/src/moc_MainWindow.cpp
 
 CMakeFiles/CFD_GUI.dir/src/moc_MainWindow.cpp.i: cmake_force
@@ -172,7 +234,7 @@ CMakeFiles/CFD_GUI.dir/src/moc_MainWindow.cpp.s: cmake_force
 CMakeFiles/CFD_GUI.dir/src/moc_Grid.cpp.o: CMakeFiles/CFD_GUI.dir/flags.make
 CMakeFiles/CFD_GUI.dir/src/moc_Grid.cpp.o: src/moc_Grid.cpp
 CMakeFiles/CFD_GUI.dir/src/moc_Grid.cpp.o: CMakeFiles/CFD_GUI.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Volumes/Vu1tUrR-SSD/CFD/Project_1/CFD_GUI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/CFD_GUI.dir/src/moc_Grid.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Volumes/Vu1tUrR-SSD/CFD/Project_1/CFD_GUI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/CFD_GUI.dir/src/moc_Grid.cpp.o"
 	/Volumes/Vu1tUrR-SSD/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CFD_GUI.dir/src/moc_Grid.cpp.o -MF CMakeFiles/CFD_GUI.dir/src/moc_Grid.cpp.o.d -o CMakeFiles/CFD_GUI.dir/src/moc_Grid.cpp.o -c /Volumes/Vu1tUrR-SSD/CFD/Project_1/CFD_GUI/build/src/moc_Grid.cpp
 
 CMakeFiles/CFD_GUI.dir/src/moc_Grid.cpp.i: cmake_force
@@ -186,7 +248,7 @@ CMakeFiles/CFD_GUI.dir/src/moc_Grid.cpp.s: cmake_force
 CMakeFiles/CFD_GUI.dir/src/moc_Field.cpp.o: CMakeFiles/CFD_GUI.dir/flags.make
 CMakeFiles/CFD_GUI.dir/src/moc_Field.cpp.o: src/moc_Field.cpp
 CMakeFiles/CFD_GUI.dir/src/moc_Field.cpp.o: CMakeFiles/CFD_GUI.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Volumes/Vu1tUrR-SSD/CFD/Project_1/CFD_GUI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/CFD_GUI.dir/src/moc_Field.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Volumes/Vu1tUrR-SSD/CFD/Project_1/CFD_GUI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/CFD_GUI.dir/src/moc_Field.cpp.o"
 	/Volumes/Vu1tUrR-SSD/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CFD_GUI.dir/src/moc_Field.cpp.o -MF CMakeFiles/CFD_GUI.dir/src/moc_Field.cpp.o.d -o CMakeFiles/CFD_GUI.dir/src/moc_Field.cpp.o -c /Volumes/Vu1tUrR-SSD/CFD/Project_1/CFD_GUI/build/src/moc_Field.cpp
 
 CMakeFiles/CFD_GUI.dir/src/moc_Field.cpp.i: cmake_force
@@ -200,7 +262,7 @@ CMakeFiles/CFD_GUI.dir/src/moc_Field.cpp.s: cmake_force
 CMakeFiles/CFD_GUI.dir/src/moc_Solver.cpp.o: CMakeFiles/CFD_GUI.dir/flags.make
 CMakeFiles/CFD_GUI.dir/src/moc_Solver.cpp.o: src/moc_Solver.cpp
 CMakeFiles/CFD_GUI.dir/src/moc_Solver.cpp.o: CMakeFiles/CFD_GUI.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Volumes/Vu1tUrR-SSD/CFD/Project_1/CFD_GUI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/CFD_GUI.dir/src/moc_Solver.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Volumes/Vu1tUrR-SSD/CFD/Project_1/CFD_GUI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/CFD_GUI.dir/src/moc_Solver.cpp.o"
 	/Volumes/Vu1tUrR-SSD/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CFD_GUI.dir/src/moc_Solver.cpp.o -MF CMakeFiles/CFD_GUI.dir/src/moc_Solver.cpp.o.d -o CMakeFiles/CFD_GUI.dir/src/moc_Solver.cpp.o -c /Volumes/Vu1tUrR-SSD/CFD/Project_1/CFD_GUI/build/src/moc_Solver.cpp
 
 CMakeFiles/CFD_GUI.dir/src/moc_Solver.cpp.i: cmake_force
@@ -211,6 +273,76 @@ CMakeFiles/CFD_GUI.dir/src/moc_Solver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CFD_GUI.dir/src/moc_Solver.cpp.s"
 	/Volumes/Vu1tUrR-SSD/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/Vu1tUrR-SSD/CFD/Project_1/CFD_GUI/build/src/moc_Solver.cpp -o CMakeFiles/CFD_GUI.dir/src/moc_Solver.cpp.s
 
+CMakeFiles/CFD_GUI.dir/src/moc_ComputeConfig.cpp.o: CMakeFiles/CFD_GUI.dir/flags.make
+CMakeFiles/CFD_GUI.dir/src/moc_ComputeConfig.cpp.o: src/moc_ComputeConfig.cpp
+CMakeFiles/CFD_GUI.dir/src/moc_ComputeConfig.cpp.o: CMakeFiles/CFD_GUI.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Volumes/Vu1tUrR-SSD/CFD/Project_1/CFD_GUI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/CFD_GUI.dir/src/moc_ComputeConfig.cpp.o"
+	/Volumes/Vu1tUrR-SSD/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CFD_GUI.dir/src/moc_ComputeConfig.cpp.o -MF CMakeFiles/CFD_GUI.dir/src/moc_ComputeConfig.cpp.o.d -o CMakeFiles/CFD_GUI.dir/src/moc_ComputeConfig.cpp.o -c /Volumes/Vu1tUrR-SSD/CFD/Project_1/CFD_GUI/build/src/moc_ComputeConfig.cpp
+
+CMakeFiles/CFD_GUI.dir/src/moc_ComputeConfig.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CFD_GUI.dir/src/moc_ComputeConfig.cpp.i"
+	/Volumes/Vu1tUrR-SSD/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/Vu1tUrR-SSD/CFD/Project_1/CFD_GUI/build/src/moc_ComputeConfig.cpp > CMakeFiles/CFD_GUI.dir/src/moc_ComputeConfig.cpp.i
+
+CMakeFiles/CFD_GUI.dir/src/moc_ComputeConfig.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CFD_GUI.dir/src/moc_ComputeConfig.cpp.s"
+	/Volumes/Vu1tUrR-SSD/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/Vu1tUrR-SSD/CFD/Project_1/CFD_GUI/build/src/moc_ComputeConfig.cpp -o CMakeFiles/CFD_GUI.dir/src/moc_ComputeConfig.cpp.s
+
+CMakeFiles/CFD_GUI.dir/src/moc_ISolverBackend.cpp.o: CMakeFiles/CFD_GUI.dir/flags.make
+CMakeFiles/CFD_GUI.dir/src/moc_ISolverBackend.cpp.o: src/moc_ISolverBackend.cpp
+CMakeFiles/CFD_GUI.dir/src/moc_ISolverBackend.cpp.o: CMakeFiles/CFD_GUI.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Volumes/Vu1tUrR-SSD/CFD/Project_1/CFD_GUI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/CFD_GUI.dir/src/moc_ISolverBackend.cpp.o"
+	/Volumes/Vu1tUrR-SSD/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CFD_GUI.dir/src/moc_ISolverBackend.cpp.o -MF CMakeFiles/CFD_GUI.dir/src/moc_ISolverBackend.cpp.o.d -o CMakeFiles/CFD_GUI.dir/src/moc_ISolverBackend.cpp.o -c /Volumes/Vu1tUrR-SSD/CFD/Project_1/CFD_GUI/build/src/moc_ISolverBackend.cpp
+
+CMakeFiles/CFD_GUI.dir/src/moc_ISolverBackend.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CFD_GUI.dir/src/moc_ISolverBackend.cpp.i"
+	/Volumes/Vu1tUrR-SSD/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/Vu1tUrR-SSD/CFD/Project_1/CFD_GUI/build/src/moc_ISolverBackend.cpp > CMakeFiles/CFD_GUI.dir/src/moc_ISolverBackend.cpp.i
+
+CMakeFiles/CFD_GUI.dir/src/moc_ISolverBackend.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CFD_GUI.dir/src/moc_ISolverBackend.cpp.s"
+	/Volumes/Vu1tUrR-SSD/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/Vu1tUrR-SSD/CFD/Project_1/CFD_GUI/build/src/moc_ISolverBackend.cpp -o CMakeFiles/CFD_GUI.dir/src/moc_ISolverBackend.cpp.s
+
+CMakeFiles/CFD_GUI.dir/src/moc_CpuSolverBackend.cpp.o: CMakeFiles/CFD_GUI.dir/flags.make
+CMakeFiles/CFD_GUI.dir/src/moc_CpuSolverBackend.cpp.o: src/moc_CpuSolverBackend.cpp
+CMakeFiles/CFD_GUI.dir/src/moc_CpuSolverBackend.cpp.o: CMakeFiles/CFD_GUI.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Volumes/Vu1tUrR-SSD/CFD/Project_1/CFD_GUI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/CFD_GUI.dir/src/moc_CpuSolverBackend.cpp.o"
+	/Volumes/Vu1tUrR-SSD/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CFD_GUI.dir/src/moc_CpuSolverBackend.cpp.o -MF CMakeFiles/CFD_GUI.dir/src/moc_CpuSolverBackend.cpp.o.d -o CMakeFiles/CFD_GUI.dir/src/moc_CpuSolverBackend.cpp.o -c /Volumes/Vu1tUrR-SSD/CFD/Project_1/CFD_GUI/build/src/moc_CpuSolverBackend.cpp
+
+CMakeFiles/CFD_GUI.dir/src/moc_CpuSolverBackend.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CFD_GUI.dir/src/moc_CpuSolverBackend.cpp.i"
+	/Volumes/Vu1tUrR-SSD/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/Vu1tUrR-SSD/CFD/Project_1/CFD_GUI/build/src/moc_CpuSolverBackend.cpp > CMakeFiles/CFD_GUI.dir/src/moc_CpuSolverBackend.cpp.i
+
+CMakeFiles/CFD_GUI.dir/src/moc_CpuSolverBackend.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CFD_GUI.dir/src/moc_CpuSolverBackend.cpp.s"
+	/Volumes/Vu1tUrR-SSD/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/Vu1tUrR-SSD/CFD/Project_1/CFD_GUI/build/src/moc_CpuSolverBackend.cpp -o CMakeFiles/CFD_GUI.dir/src/moc_CpuSolverBackend.cpp.s
+
+CMakeFiles/CFD_GUI.dir/src/moc_GpuMetalSolverBackend.cpp.o: CMakeFiles/CFD_GUI.dir/flags.make
+CMakeFiles/CFD_GUI.dir/src/moc_GpuMetalSolverBackend.cpp.o: src/moc_GpuMetalSolverBackend.cpp
+CMakeFiles/CFD_GUI.dir/src/moc_GpuMetalSolverBackend.cpp.o: CMakeFiles/CFD_GUI.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Volumes/Vu1tUrR-SSD/CFD/Project_1/CFD_GUI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/CFD_GUI.dir/src/moc_GpuMetalSolverBackend.cpp.o"
+	/Volumes/Vu1tUrR-SSD/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CFD_GUI.dir/src/moc_GpuMetalSolverBackend.cpp.o -MF CMakeFiles/CFD_GUI.dir/src/moc_GpuMetalSolverBackend.cpp.o.d -o CMakeFiles/CFD_GUI.dir/src/moc_GpuMetalSolverBackend.cpp.o -c /Volumes/Vu1tUrR-SSD/CFD/Project_1/CFD_GUI/build/src/moc_GpuMetalSolverBackend.cpp
+
+CMakeFiles/CFD_GUI.dir/src/moc_GpuMetalSolverBackend.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CFD_GUI.dir/src/moc_GpuMetalSolverBackend.cpp.i"
+	/Volumes/Vu1tUrR-SSD/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/Vu1tUrR-SSD/CFD/Project_1/CFD_GUI/build/src/moc_GpuMetalSolverBackend.cpp > CMakeFiles/CFD_GUI.dir/src/moc_GpuMetalSolverBackend.cpp.i
+
+CMakeFiles/CFD_GUI.dir/src/moc_GpuMetalSolverBackend.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CFD_GUI.dir/src/moc_GpuMetalSolverBackend.cpp.s"
+	/Volumes/Vu1tUrR-SSD/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/Vu1tUrR-SSD/CFD/Project_1/CFD_GUI/build/src/moc_GpuMetalSolverBackend.cpp -o CMakeFiles/CFD_GUI.dir/src/moc_GpuMetalSolverBackend.cpp.s
+
+CMakeFiles/CFD_GUI.dir/src/moc_GpuMetalRunner.cpp.o: CMakeFiles/CFD_GUI.dir/flags.make
+CMakeFiles/CFD_GUI.dir/src/moc_GpuMetalRunner.cpp.o: src/moc_GpuMetalRunner.cpp
+CMakeFiles/CFD_GUI.dir/src/moc_GpuMetalRunner.cpp.o: CMakeFiles/CFD_GUI.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Volumes/Vu1tUrR-SSD/CFD/Project_1/CFD_GUI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/CFD_GUI.dir/src/moc_GpuMetalRunner.cpp.o"
+	/Volumes/Vu1tUrR-SSD/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CFD_GUI.dir/src/moc_GpuMetalRunner.cpp.o -MF CMakeFiles/CFD_GUI.dir/src/moc_GpuMetalRunner.cpp.o.d -o CMakeFiles/CFD_GUI.dir/src/moc_GpuMetalRunner.cpp.o -c /Volumes/Vu1tUrR-SSD/CFD/Project_1/CFD_GUI/build/src/moc_GpuMetalRunner.cpp
+
+CMakeFiles/CFD_GUI.dir/src/moc_GpuMetalRunner.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CFD_GUI.dir/src/moc_GpuMetalRunner.cpp.i"
+	/Volumes/Vu1tUrR-SSD/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/Vu1tUrR-SSD/CFD/Project_1/CFD_GUI/build/src/moc_GpuMetalRunner.cpp > CMakeFiles/CFD_GUI.dir/src/moc_GpuMetalRunner.cpp.i
+
+CMakeFiles/CFD_GUI.dir/src/moc_GpuMetalRunner.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CFD_GUI.dir/src/moc_GpuMetalRunner.cpp.s"
+	/Volumes/Vu1tUrR-SSD/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/Vu1tUrR-SSD/CFD/Project_1/CFD_GUI/build/src/moc_GpuMetalRunner.cpp -o CMakeFiles/CFD_GUI.dir/src/moc_GpuMetalRunner.cpp.s
+
 # Object files for target CFD_GUI
 CFD_GUI_OBJECTS = \
 "CMakeFiles/CFD_GUI.dir/src/main.cpp.o" \
@@ -218,10 +350,18 @@ CFD_GUI_OBJECTS = \
 "CMakeFiles/CFD_GUI.dir/src/Grid.cpp.o" \
 "CMakeFiles/CFD_GUI.dir/src/Field.cpp.o" \
 "CMakeFiles/CFD_GUI.dir/src/Solver.cpp.o" \
+"CMakeFiles/CFD_GUI.dir/src/CpuSolverBackend.cpp.o" \
+"CMakeFiles/CFD_GUI.dir/src/GpuMetalSolverBackend.cpp.o" \
+"CMakeFiles/CFD_GUI.dir/src/GpuMetalRunner.mm.o" \
 "CMakeFiles/CFD_GUI.dir/src/moc_MainWindow.cpp.o" \
 "CMakeFiles/CFD_GUI.dir/src/moc_Grid.cpp.o" \
 "CMakeFiles/CFD_GUI.dir/src/moc_Field.cpp.o" \
-"CMakeFiles/CFD_GUI.dir/src/moc_Solver.cpp.o"
+"CMakeFiles/CFD_GUI.dir/src/moc_Solver.cpp.o" \
+"CMakeFiles/CFD_GUI.dir/src/moc_ComputeConfig.cpp.o" \
+"CMakeFiles/CFD_GUI.dir/src/moc_ISolverBackend.cpp.o" \
+"CMakeFiles/CFD_GUI.dir/src/moc_CpuSolverBackend.cpp.o" \
+"CMakeFiles/CFD_GUI.dir/src/moc_GpuMetalSolverBackend.cpp.o" \
+"CMakeFiles/CFD_GUI.dir/src/moc_GpuMetalRunner.cpp.o"
 
 # External object files for target CFD_GUI
 CFD_GUI_EXTERNAL_OBJECTS =
@@ -231,17 +371,26 @@ CFD_GUI: CMakeFiles/CFD_GUI.dir/src/MainWindow.cpp.o
 CFD_GUI: CMakeFiles/CFD_GUI.dir/src/Grid.cpp.o
 CFD_GUI: CMakeFiles/CFD_GUI.dir/src/Field.cpp.o
 CFD_GUI: CMakeFiles/CFD_GUI.dir/src/Solver.cpp.o
+CFD_GUI: CMakeFiles/CFD_GUI.dir/src/CpuSolverBackend.cpp.o
+CFD_GUI: CMakeFiles/CFD_GUI.dir/src/GpuMetalSolverBackend.cpp.o
+CFD_GUI: CMakeFiles/CFD_GUI.dir/src/GpuMetalRunner.mm.o
 CFD_GUI: CMakeFiles/CFD_GUI.dir/src/moc_MainWindow.cpp.o
 CFD_GUI: CMakeFiles/CFD_GUI.dir/src/moc_Grid.cpp.o
 CFD_GUI: CMakeFiles/CFD_GUI.dir/src/moc_Field.cpp.o
 CFD_GUI: CMakeFiles/CFD_GUI.dir/src/moc_Solver.cpp.o
+CFD_GUI: CMakeFiles/CFD_GUI.dir/src/moc_ComputeConfig.cpp.o
+CFD_GUI: CMakeFiles/CFD_GUI.dir/src/moc_ISolverBackend.cpp.o
+CFD_GUI: CMakeFiles/CFD_GUI.dir/src/moc_CpuSolverBackend.cpp.o
+CFD_GUI: CMakeFiles/CFD_GUI.dir/src/moc_GpuMetalSolverBackend.cpp.o
+CFD_GUI: CMakeFiles/CFD_GUI.dir/src/moc_GpuMetalRunner.cpp.o
 CFD_GUI: CMakeFiles/CFD_GUI.dir/build.make
 CFD_GUI: /opt/homebrew/opt/qt/lib/QtWidgets.framework/Versions/A/QtWidgets
 CFD_GUI: /opt/homebrew/opt/qt/lib/QtGui.framework/Versions/A/QtGui
 CFD_GUI: /opt/homebrew/opt/qt/lib/QtCore.framework/Versions/A/QtCore
 CFD_GUI: CMakeFiles/CFD_GUI.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Volumes/Vu1tUrR-SSD/CFD/Project_1/CFD_GUI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable CFD_GUI"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Volumes/Vu1tUrR-SSD/CFD/Project_1/CFD_GUI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Linking CXX executable CFD_GUI"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CFD_GUI.dir/link.txt --verbose=$(VERBOSE)
+	/usr/local/bin/cmake -E copy_if_different /Volumes/Vu1tUrR-SSD/CFD/Project_1/CFD_GUI/src/GpuKernels.metal /Volumes/Vu1tUrR-SSD/CFD/Project_1/CFD_GUI/build/GpuKernels.metal
 
 # Rule to build all files generated by this target.
 CMakeFiles/CFD_GUI.dir/build: CFD_GUI
@@ -251,8 +400,13 @@ CMakeFiles/CFD_GUI.dir/clean:
 	$(CMAKE_COMMAND) -P CMakeFiles/CFD_GUI.dir/cmake_clean.cmake
 .PHONY : CMakeFiles/CFD_GUI.dir/clean
 
+CMakeFiles/CFD_GUI.dir/depend: src/moc_ComputeConfig.cpp
+CMakeFiles/CFD_GUI.dir/depend: src/moc_CpuSolverBackend.cpp
 CMakeFiles/CFD_GUI.dir/depend: src/moc_Field.cpp
+CMakeFiles/CFD_GUI.dir/depend: src/moc_GpuMetalRunner.cpp
+CMakeFiles/CFD_GUI.dir/depend: src/moc_GpuMetalSolverBackend.cpp
 CMakeFiles/CFD_GUI.dir/depend: src/moc_Grid.cpp
+CMakeFiles/CFD_GUI.dir/depend: src/moc_ISolverBackend.cpp
 CMakeFiles/CFD_GUI.dir/depend: src/moc_MainWindow.cpp
 CMakeFiles/CFD_GUI.dir/depend: src/moc_Solver.cpp
 	cd /Volumes/Vu1tUrR-SSD/CFD/Project_1/CFD_GUI/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Volumes/Vu1tUrR-SSD/CFD/Project_1/CFD_GUI /Volumes/Vu1tUrR-SSD/CFD/Project_1/CFD_GUI /Volumes/Vu1tUrR-SSD/CFD/Project_1/CFD_GUI/build /Volumes/Vu1tUrR-SSD/CFD/Project_1/CFD_GUI/build /Volumes/Vu1tUrR-SSD/CFD/Project_1/CFD_GUI/build/CMakeFiles/CFD_GUI.dir/DependInfo.cmake "--color=$(COLOR)"

@@ -1,8 +1,14 @@
 file(REMOVE_RECURSE
   "CFD_GUI"
   "CFD_GUI.pdb"
+  "CMakeFiles/CFD_GUI.dir/src/CpuSolverBackend.cpp.o"
+  "CMakeFiles/CFD_GUI.dir/src/CpuSolverBackend.cpp.o.d"
   "CMakeFiles/CFD_GUI.dir/src/Field.cpp.o"
   "CMakeFiles/CFD_GUI.dir/src/Field.cpp.o.d"
+  "CMakeFiles/CFD_GUI.dir/src/GpuMetalRunner.mm.o"
+  "CMakeFiles/CFD_GUI.dir/src/GpuMetalRunner.mm.o.d"
+  "CMakeFiles/CFD_GUI.dir/src/GpuMetalSolverBackend.cpp.o"
+  "CMakeFiles/CFD_GUI.dir/src/GpuMetalSolverBackend.cpp.o.d"
   "CMakeFiles/CFD_GUI.dir/src/Grid.cpp.o"
   "CMakeFiles/CFD_GUI.dir/src/Grid.cpp.o.d"
   "CMakeFiles/CFD_GUI.dir/src/MainWindow.cpp.o"
@@ -11,21 +17,36 @@ file(REMOVE_RECURSE
   "CMakeFiles/CFD_GUI.dir/src/Solver.cpp.o.d"
   "CMakeFiles/CFD_GUI.dir/src/main.cpp.o"
   "CMakeFiles/CFD_GUI.dir/src/main.cpp.o.d"
+  "CMakeFiles/CFD_GUI.dir/src/moc_ComputeConfig.cpp.o"
+  "CMakeFiles/CFD_GUI.dir/src/moc_ComputeConfig.cpp.o.d"
+  "CMakeFiles/CFD_GUI.dir/src/moc_CpuSolverBackend.cpp.o"
+  "CMakeFiles/CFD_GUI.dir/src/moc_CpuSolverBackend.cpp.o.d"
   "CMakeFiles/CFD_GUI.dir/src/moc_Field.cpp.o"
   "CMakeFiles/CFD_GUI.dir/src/moc_Field.cpp.o.d"
+  "CMakeFiles/CFD_GUI.dir/src/moc_GpuMetalRunner.cpp.o"
+  "CMakeFiles/CFD_GUI.dir/src/moc_GpuMetalRunner.cpp.o.d"
+  "CMakeFiles/CFD_GUI.dir/src/moc_GpuMetalSolverBackend.cpp.o"
+  "CMakeFiles/CFD_GUI.dir/src/moc_GpuMetalSolverBackend.cpp.o.d"
   "CMakeFiles/CFD_GUI.dir/src/moc_Grid.cpp.o"
   "CMakeFiles/CFD_GUI.dir/src/moc_Grid.cpp.o.d"
+  "CMakeFiles/CFD_GUI.dir/src/moc_ISolverBackend.cpp.o"
+  "CMakeFiles/CFD_GUI.dir/src/moc_ISolverBackend.cpp.o.d"
   "CMakeFiles/CFD_GUI.dir/src/moc_MainWindow.cpp.o"
   "CMakeFiles/CFD_GUI.dir/src/moc_MainWindow.cpp.o.d"
   "CMakeFiles/CFD_GUI.dir/src/moc_Solver.cpp.o"
   "CMakeFiles/CFD_GUI.dir/src/moc_Solver.cpp.o.d"
+  "src/moc_ComputeConfig.cpp"
+  "src/moc_CpuSolverBackend.cpp"
   "src/moc_Field.cpp"
+  "src/moc_GpuMetalRunner.cpp"
+  "src/moc_GpuMetalSolverBackend.cpp"
   "src/moc_Grid.cpp"
+  "src/moc_ISolverBackend.cpp"
   "src/moc_MainWindow.cpp"
   "src/moc_Solver.cpp"
 )
 
 # Per-language clean rules from dependency scanning.
-foreach(lang CXX)
+foreach(lang CXX OBJCXX)
   include(CMakeFiles/CFD_GUI.dir/cmake_clean_${lang}.cmake OPTIONAL)
 endforeach()

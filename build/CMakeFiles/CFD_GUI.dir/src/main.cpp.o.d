@@ -1011,4 +1011,5 @@ CMakeFiles/CFD_GUI.dir/src/main.cpp.o: \
   /opt/homebrew/opt/qt/lib/QtGui.framework/Headers/QImage \
   /Volumes/Vu1tUrR-SSD/CFD/Project_1/CFD_GUI/src/Grid.h \
   /Volumes/Vu1tUrR-SSD/CFD/Project_1/CFD_GUI/src/Solver.h \
-  /Volumes/Vu1tUrR-SSD/CFD/Project_1/CFD_GUI/src/Field.h
+  /Volumes/Vu1tUrR-SSD/CFD/Project_1/CFD_GUI/src/Field.h \
+  /Volumes/Vu1tUrR-SSD/CFD/Project_1/CFD_GUI/src/ComputeConfig.h

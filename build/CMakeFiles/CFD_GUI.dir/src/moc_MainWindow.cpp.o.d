@@ -998,6 +998,7 @@ CMakeFiles/CFD_GUI.dir/src/moc_MainWindow.cpp.o: \
   /Volumes/Vu1tUrR-SSD/CFD/Project_1/CFD_GUI/build/src/../../src/Solver.h \
   /Volumes/Vu1tUrR-SSD/CFD/Project_1/CFD_GUI/build/src/../../src/Field.h \
   /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/QMetaType \
+  /Volumes/Vu1tUrR-SSD/CFD/Project_1/CFD_GUI/build/src/../../src/ComputeConfig.h \
   /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qtmochelpers.h \
   /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qtmocconstants.h \
   /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/q20algorithm.h

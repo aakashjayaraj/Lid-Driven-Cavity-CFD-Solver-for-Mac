@@ -129,6 +129,30 @@ CFD_GUI/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CFD_GUI.dir/build.make CMakeFiles/CFD_GUI.dir/build
 .PHONY : CFD_GUI/fast
 
+src/CpuSolverBackend.o: src/CpuSolverBackend.cpp.o
+.PHONY : src/CpuSolverBackend.o
+
+# target to build an object file
+src/CpuSolverBackend.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CFD_GUI.dir/build.make CMakeFiles/CFD_GUI.dir/src/CpuSolverBackend.cpp.o
+.PHONY : src/CpuSolverBackend.cpp.o
+
+src/CpuSolverBackend.i: src/CpuSolverBackend.cpp.i
+.PHONY : src/CpuSolverBackend.i
+
+# target to preprocess a source file
+src/CpuSolverBackend.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CFD_GUI.dir/build.make CMakeFiles/CFD_GUI.dir/src/CpuSolverBackend.cpp.i
+.PHONY : src/CpuSolverBackend.cpp.i
+
+src/CpuSolverBackend.s: src/CpuSolverBackend.cpp.s
+.PHONY : src/CpuSolverBackend.s
+
+# target to generate assembly for a file
+src/CpuSolverBackend.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CFD_GUI.dir/build.make CMakeFiles/CFD_GUI.dir/src/CpuSolverBackend.cpp.s
+.PHONY : src/CpuSolverBackend.cpp.s
+
 src/Field.o: src/Field.cpp.o
 .PHONY : src/Field.o
 
@@ -152,6 +176,38 @@ src/Field.s: src/Field.cpp.s
 src/Field.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CFD_GUI.dir/build.make CMakeFiles/CFD_GUI.dir/src/Field.cpp.s
 .PHONY : src/Field.cpp.s
+
+src/GpuMetalRunner.o: src/GpuMetalRunner.mm.o
+.PHONY : src/GpuMetalRunner.o
+
+# target to build an object file
+src/GpuMetalRunner.mm.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CFD_GUI.dir/build.make CMakeFiles/CFD_GUI.dir/src/GpuMetalRunner.mm.o
+.PHONY : src/GpuMetalRunner.mm.o
+
+src/GpuMetalSolverBackend.o: src/GpuMetalSolverBackend.cpp.o
+.PHONY : src/GpuMetalSolverBackend.o
+
+# target to build an object file
+src/GpuMetalSolverBackend.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CFD_GUI.dir/build.make CMakeFiles/CFD_GUI.dir/src/GpuMetalSolverBackend.cpp.o
+.PHONY : src/GpuMetalSolverBackend.cpp.o
+
+src/GpuMetalSolverBackend.i: src/GpuMetalSolverBackend.cpp.i
+.PHONY : src/GpuMetalSolverBackend.i
+
+# target to preprocess a source file
+src/GpuMetalSolverBackend.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CFD_GUI.dir/build.make CMakeFiles/CFD_GUI.dir/src/GpuMetalSolverBackend.cpp.i
+.PHONY : src/GpuMetalSolverBackend.cpp.i
+
+src/GpuMetalSolverBackend.s: src/GpuMetalSolverBackend.cpp.s
+.PHONY : src/GpuMetalSolverBackend.s
+
+# target to generate assembly for a file
+src/GpuMetalSolverBackend.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CFD_GUI.dir/build.make CMakeFiles/CFD_GUI.dir/src/GpuMetalSolverBackend.cpp.s
+.PHONY : src/GpuMetalSolverBackend.cpp.s
 
 src/Grid.o: src/Grid.cpp.o
 .PHONY : src/Grid.o
@@ -249,6 +305,54 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CFD_GUI.dir/build.make CMakeFiles/CFD_GUI.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/moc_ComputeConfig.o: src/moc_ComputeConfig.cpp.o
+.PHONY : src/moc_ComputeConfig.o
+
+# target to build an object file
+src/moc_ComputeConfig.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CFD_GUI.dir/build.make CMakeFiles/CFD_GUI.dir/src/moc_ComputeConfig.cpp.o
+.PHONY : src/moc_ComputeConfig.cpp.o
+
+src/moc_ComputeConfig.i: src/moc_ComputeConfig.cpp.i
+.PHONY : src/moc_ComputeConfig.i
+
+# target to preprocess a source file
+src/moc_ComputeConfig.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CFD_GUI.dir/build.make CMakeFiles/CFD_GUI.dir/src/moc_ComputeConfig.cpp.i
+.PHONY : src/moc_ComputeConfig.cpp.i
+
+src/moc_ComputeConfig.s: src/moc_ComputeConfig.cpp.s
+.PHONY : src/moc_ComputeConfig.s
+
+# target to generate assembly for a file
+src/moc_ComputeConfig.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CFD_GUI.dir/build.make CMakeFiles/CFD_GUI.dir/src/moc_ComputeConfig.cpp.s
+.PHONY : src/moc_ComputeConfig.cpp.s
+
+src/moc_CpuSolverBackend.o: src/moc_CpuSolverBackend.cpp.o
+.PHONY : src/moc_CpuSolverBackend.o
+
+# target to build an object file
+src/moc_CpuSolverBackend.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CFD_GUI.dir/build.make CMakeFiles/CFD_GUI.dir/src/moc_CpuSolverBackend.cpp.o
+.PHONY : src/moc_CpuSolverBackend.cpp.o
+
+src/moc_CpuSolverBackend.i: src/moc_CpuSolverBackend.cpp.i
+.PHONY : src/moc_CpuSolverBackend.i
+
+# target to preprocess a source file
+src/moc_CpuSolverBackend.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CFD_GUI.dir/build.make CMakeFiles/CFD_GUI.dir/src/moc_CpuSolverBackend.cpp.i
+.PHONY : src/moc_CpuSolverBackend.cpp.i
+
+src/moc_CpuSolverBackend.s: src/moc_CpuSolverBackend.cpp.s
+.PHONY : src/moc_CpuSolverBackend.s
+
+# target to generate assembly for a file
+src/moc_CpuSolverBackend.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CFD_GUI.dir/build.make CMakeFiles/CFD_GUI.dir/src/moc_CpuSolverBackend.cpp.s
+.PHONY : src/moc_CpuSolverBackend.cpp.s
+
 src/moc_Field.o: src/moc_Field.cpp.o
 .PHONY : src/moc_Field.o
 
@@ -273,6 +377,54 @@ src/moc_Field.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CFD_GUI.dir/build.make CMakeFiles/CFD_GUI.dir/src/moc_Field.cpp.s
 .PHONY : src/moc_Field.cpp.s
 
+src/moc_GpuMetalRunner.o: src/moc_GpuMetalRunner.cpp.o
+.PHONY : src/moc_GpuMetalRunner.o
+
+# target to build an object file
+src/moc_GpuMetalRunner.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CFD_GUI.dir/build.make CMakeFiles/CFD_GUI.dir/src/moc_GpuMetalRunner.cpp.o
+.PHONY : src/moc_GpuMetalRunner.cpp.o
+
+src/moc_GpuMetalRunner.i: src/moc_GpuMetalRunner.cpp.i
+.PHONY : src/moc_GpuMetalRunner.i
+
+# target to preprocess a source file
+src/moc_GpuMetalRunner.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CFD_GUI.dir/build.make CMakeFiles/CFD_GUI.dir/src/moc_GpuMetalRunner.cpp.i
+.PHONY : src/moc_GpuMetalRunner.cpp.i
+
+src/moc_GpuMetalRunner.s: src/moc_GpuMetalRunner.cpp.s
+.PHONY : src/moc_GpuMetalRunner.s
+
+# target to generate assembly for a file
+src/moc_GpuMetalRunner.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CFD_GUI.dir/build.make CMakeFiles/CFD_GUI.dir/src/moc_GpuMetalRunner.cpp.s
+.PHONY : src/moc_GpuMetalRunner.cpp.s
+
+src/moc_GpuMetalSolverBackend.o: src/moc_GpuMetalSolverBackend.cpp.o
+.PHONY : src/moc_GpuMetalSolverBackend.o
+
+# target to build an object file
+src/moc_GpuMetalSolverBackend.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CFD_GUI.dir/build.make CMakeFiles/CFD_GUI.dir/src/moc_GpuMetalSolverBackend.cpp.o
+.PHONY : src/moc_GpuMetalSolverBackend.cpp.o
+
+src/moc_GpuMetalSolverBackend.i: src/moc_GpuMetalSolverBackend.cpp.i
+.PHONY : src/moc_GpuMetalSolverBackend.i
+
+# target to preprocess a source file
+src/moc_GpuMetalSolverBackend.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CFD_GUI.dir/build.make CMakeFiles/CFD_GUI.dir/src/moc_GpuMetalSolverBackend.cpp.i
+.PHONY : src/moc_GpuMetalSolverBackend.cpp.i
+
+src/moc_GpuMetalSolverBackend.s: src/moc_GpuMetalSolverBackend.cpp.s
+.PHONY : src/moc_GpuMetalSolverBackend.s
+
+# target to generate assembly for a file
+src/moc_GpuMetalSolverBackend.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CFD_GUI.dir/build.make CMakeFiles/CFD_GUI.dir/src/moc_GpuMetalSolverBackend.cpp.s
+.PHONY : src/moc_GpuMetalSolverBackend.cpp.s
+
 src/moc_Grid.o: src/moc_Grid.cpp.o
 .PHONY : src/moc_Grid.o
 
@@ -296,6 +448,30 @@ src/moc_Grid.s: src/moc_Grid.cpp.s
 src/moc_Grid.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CFD_GUI.dir/build.make CMakeFiles/CFD_GUI.dir/src/moc_Grid.cpp.s
 .PHONY : src/moc_Grid.cpp.s
+
+src/moc_ISolverBackend.o: src/moc_ISolverBackend.cpp.o
+.PHONY : src/moc_ISolverBackend.o
+
+# target to build an object file
+src/moc_ISolverBackend.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CFD_GUI.dir/build.make CMakeFiles/CFD_GUI.dir/src/moc_ISolverBackend.cpp.o
+.PHONY : src/moc_ISolverBackend.cpp.o
+
+src/moc_ISolverBackend.i: src/moc_ISolverBackend.cpp.i
+.PHONY : src/moc_ISolverBackend.i
+
+# target to preprocess a source file
+src/moc_ISolverBackend.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CFD_GUI.dir/build.make CMakeFiles/CFD_GUI.dir/src/moc_ISolverBackend.cpp.i
+.PHONY : src/moc_ISolverBackend.cpp.i
+
+src/moc_ISolverBackend.s: src/moc_ISolverBackend.cpp.s
+.PHONY : src/moc_ISolverBackend.s
+
+# target to generate assembly for a file
+src/moc_ISolverBackend.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CFD_GUI.dir/build.make CMakeFiles/CFD_GUI.dir/src/moc_ISolverBackend.cpp.s
+.PHONY : src/moc_ISolverBackend.cpp.s
 
 src/moc_MainWindow.o: src/moc_MainWindow.cpp.o
 .PHONY : src/moc_MainWindow.o
@@ -354,9 +530,16 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... CFD_GUI"
+	@echo "... src/CpuSolverBackend.o"
+	@echo "... src/CpuSolverBackend.i"
+	@echo "... src/CpuSolverBackend.s"
 	@echo "... src/Field.o"
 	@echo "... src/Field.i"
 	@echo "... src/Field.s"
+	@echo "... src/GpuMetalRunner.o"
+	@echo "... src/GpuMetalSolverBackend.o"
+	@echo "... src/GpuMetalSolverBackend.i"
+	@echo "... src/GpuMetalSolverBackend.s"
 	@echo "... src/Grid.o"
 	@echo "... src/Grid.i"
 	@echo "... src/Grid.s"
@@ -369,12 +552,27 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/moc_ComputeConfig.o"
+	@echo "... src/moc_ComputeConfig.i"
+	@echo "... src/moc_ComputeConfig.s"
+	@echo "... src/moc_CpuSolverBackend.o"
+	@echo "... src/moc_CpuSolverBackend.i"
+	@echo "... src/moc_CpuSolverBackend.s"
 	@echo "... src/moc_Field.o"
 	@echo "... src/moc_Field.i"
 	@echo "... src/moc_Field.s"
+	@echo "... src/moc_GpuMetalRunner.o"
+	@echo "... src/moc_GpuMetalRunner.i"
+	@echo "... src/moc_GpuMetalRunner.s"
+	@echo "... src/moc_GpuMetalSolverBackend.o"
+	@echo "... src/moc_GpuMetalSolverBackend.i"
+	@echo "... src/moc_GpuMetalSolverBackend.s"
 	@echo "... src/moc_Grid.o"
 	@echo "... src/moc_Grid.i"
 	@echo "... src/moc_Grid.s"
+	@echo "... src/moc_ISolverBackend.o"
+	@echo "... src/moc_ISolverBackend.i"
+	@echo "... src/moc_ISolverBackend.s"
 	@echo "... src/moc_MainWindow.o"
 	@echo "... src/moc_MainWindow.i"
 	@echo "... src/moc_MainWindow.s"

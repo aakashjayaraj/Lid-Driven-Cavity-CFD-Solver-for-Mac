@@ -998,6 +998,10 @@ CMakeFiles/CFD_GUI.dir/src/MainWindow.cpp.o: \
   /Volumes/Vu1tUrR-SSD/CFD/Project_1/CFD_GUI/src/Solver.h \
   /Volumes/Vu1tUrR-SSD/CFD/Project_1/CFD_GUI/src/Field.h \
   /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/QMetaType \
+  /Volumes/Vu1tUrR-SSD/CFD/Project_1/CFD_GUI/src/ComputeConfig.h \
+  /Volumes/Vu1tUrR-SSD/CFD/Project_1/CFD_GUI/src/CpuSolverBackend.h \
+  /Volumes/Vu1tUrR-SSD/CFD/Project_1/CFD_GUI/src/ISolverBackend.h \
+  /Volumes/Vu1tUrR-SSD/CFD/Project_1/CFD_GUI/src/GpuMetalSolverBackend.h \
   /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers/QApplication \
   /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers/qapplication.h \
   /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qcoreapplication.h \
@@ -1057,4 +1061,6 @@ CMakeFiles/CFD_GUI.dir/src/MainWindow.cpp.o: \
   /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers/QMessageBox \
   /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers/qmessagebox.h \
   /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers/qdialog.h \
-  /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers/qdialogbuttonbox.h
+  /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers/qdialogbuttonbox.h \
+  /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers/QSpinBox \
+  /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers/qspinbox.h
